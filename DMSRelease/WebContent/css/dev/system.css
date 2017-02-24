@@ -1,0 +1,314 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Calibri;
+}
+
+#hintbox {
+	/*CSS for pop up hint box */
+	position: absolute;
+	top: 0;
+	background-color: lightyellow;
+	width: 150px; /*Default width of hint.*/
+	padding: 3px;
+	border: 1px solid black;
+	font: normal 11px Verdana;
+	line-height: 18px;
+	z-index: 100;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	visibility: hidden;
+}
+
+.hintanchor {
+	/*CSS for link that shows hint onmouseover*/
+	font-weight: bold;
+	color: navy;
+	margin: 3px 8px;
+}
+
+a {
+	text-decoration: none;
+	color: #1F5C99;
+}
+
+.logo {
+	font-size: x-large;
+	color: white;
+}
+
+.ad {
+	font-size: xx-large;
+	text-align: center;
+	vertical-align: middle;
+	height: 300px;
+	color: white;
+}
+
+.start_dms {
+	background-color: white;
+	padding: 10px;
+	font-size: medium;
+	fint-weight: bold;
+	color: #1F5C99;
+}
+
+.heading {
+	font-size: x-large;
+	color: #A3C2FF;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.heading_description {
+	text-align: justify;
+	padding: 10px;
+	vertical-align: text-top;
+}
+
+.about_heading {
+	color: white;
+}
+
+.about_heading_description {
+	/*lor:#1F5C99;*/
+	
+}
+
+
+ul li {
+	font-weight: normal;
+	color: #369;
+	font-decoration: none;
+}
+
+li.selected {
+	font-weight: bold;
+	color: firebrick !important;
+}
+
+li.searched {
+	font-weight: bold;
+	color: #FDD017;
+}
+
+li>ul {
+	display: none;
+}
+
+ul.tree, ul.tree ul {
+	list-style-type: none;
+	background: url(/DMS/images/vline.png) repeat-y;
+	margin: 0;
+	padding: 0;
+	color: #369;
+}
+
+ul.tree ul {
+	margin-left: 10px;
+}
+
+ul.tree li {
+	margin: 0;
+	padding: 0 12px;
+	line-height: 20px;
+	background: url(/DMS/images/node.png) no-repeat;
+	/*color: #369;*/
+}
+
+ul.tree li.member {
+	color: black;
+	/*color: #369;*/	
+}
+.member{
+	/*color:black !important;*/
+}
+ul.tree li.last {
+	background: #fff url(/DMS/images/lastnode.png) no-repeat;
+}
+
+div.bar {
+	display: inline-block;
+	width: 20px;
+	height: 75px; /* We'll override this later */
+	background-color: teal;
+	margin-right: 2px;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+div.tooltip {
+	position: absolute;
+	text-align: center;
+	color: black;
+	padding: 8px;
+	font: 10px sans-serif;
+	background: rgba(100, 100, 100, 0.2);
+	border: solid 1px #aaa;
+	pointer-events: none;
+}
+
+div.graytooltip {
+	position: absolute;
+	text-align: center;
+	color: black;
+	padding: 8px;
+	font: 10px sans-serif;
+	background: rgba(200, 200, 200, 0.7);
+	border: solid 1px #aaa;
+	pointer-events: none;
+}
+
+body {
+	font-family: arial;
+	font-size: 12px;
+}
+
+#nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav li {
+	float: left;
+	display: block;
+	width: 100px;
+	background: #A3C2FF;
+	border: 2px white solid;
+	position: relative;
+	z-index: 500;
+	margin: 0 1px;
+	-webkit-transition: all 0.1s ease-in-out;
+}
+
+#nav li.first {
+	border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+}
+
+#nav li.last {
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+}
+
+#nav li li.last {
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+}
+
+#nav li a {
+	display: block;
+	padding: 8px 5px 0 5px;
+	font-weight: 700;
+	height: 23px;
+	text-decoration: none;
+	text-align: center;
+	color: #333;
+}
+
+#nav li a:hover {
+	color: #C00;
+}
+
+#nav li li:hover {
+	-webkit-transform: translate(+10px, 0);
+}
+
+/
+#nav a.selected {
+	color: #C00;
+}
+
+#nav ul {
+	position: absolute;
+	left: 0;
+	display: none;
+	margin: 0 0 0 -1px;
+	padding: 0;
+	list-style: none;
+}
+
+#nav ul li {
+	width: 100px;
+	float: left;
+	border-top: 1px solid #fff;
+}
+
+#nav ul a {
+	display: block;
+	height: auto;
+	padding: 8px 5px;
+	color: #666;
+}
+
+/* fix ie6, meglio inserirlo in un file .css separato */
+* html #nav ul {
+	margin: 0 0 0 -2px;
+}
+
+.legendText {
+	font-size: 20px;
+	font-family: "Arial, sans-serif";
+	font-weight: bold;
+}
+
+.header-search-box {
+	display: none;
+	width: 0px;
+}
+
+.magnifying-glass {
+	
+}
+
+.searchbtn {
+	display: none;
+}
+
+.Collapsebtn {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 60;
+	-moz-border-radius: 60;
+	border-radius: 60px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 10px;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+}
+
+.Collapsebtn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+.hierarchyBtn{
+	/*font-weight:bold;*/
+	color:orange;
+	border-style:none;
+	background-color: white;
+	cursor:pointer;
+}
+.hierarchyBtn:hover{
+	color:firebrick;
+	text-decoration: underline;
+}

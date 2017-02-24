@@ -1,0 +1,160 @@
+{
+ statejson: 
+[{name:" AK ",pos: {lat: 64.20084143, lng: -149.4946733},area: 665384,population: 626932,interest: 0} 
+, {name:" AL ",pos: {lat: 32.7, lng: -86.7},area: 52420,population: 4447100,interest: 0} 
+, {name:" AR ",pos: {lat: 34.8, lng: -92.2},area: 53179,population: 2673400,interest: 0} 
+, {name:" AZ ",pos: {lat: 34, lng: -111},area: 113990,population: 5130632,interest: 0} 
+, {name:" CA ",pos: {lat: 37, lng: -120},area: 163695,population: 33871648,interest: 0} 
+, {name:" CO ",pos: {lat: 39, lng: -105.5},area: 104094,population: 4301261,interest: 0} 
+, {name:" CT ",pos: {lat: 41.6, lng: -72.7},area: 5543,population: 3405565,interest: 0} 
+, {name:" DC ",pos: {lat: 38.9047, lng: -77.0164},area: 68,population: 572059,interest: 0} 
+, {name:" DE ",pos: {lat: 39, lng: -75.5},area: 2489,population: 783600,interest: 0} 
+, {name:" FL ",pos: {lat: 28.1, lng: -81.6},area: 65758,population: 15982378,interest: 0} 
+, {name:" GA ",pos: {lat: 32.9605, lng: -83.1132},area: 59425,population: 8186453,interest: 0} 
+, {name:" HI ",pos: {lat: 20.2498897, lng: -159.7060158},area: 10932,population: 1211537,interest: 0} 
+, {name:" IA ",pos: {lat: 42, lng: -93},area: 56273,population: 2926324,interest: 0} 
+, {name:" ID ",pos: {lat: 45, lng: -114},area: 83569,population: 1293953,interest: 0} 
+, {name:" IL ",pos: {lat: 40, lng: -89},area: 57914,population: 12419293,interest: 0} 
+, {name:" IN ",pos: {lat: 40, lng: -86},area: 36420,population: 6080485,interest: 0} 
+, {name:" KS ",pos: {lat: 38.5, lng: -98},area: 82278,population: 2688418,interest: 0} 
+, {name:" KY ",pos: {lat: 37.5, lng: -85},area: 40408,population: 4041769,interest: 0} 
+, {name:" LA ",pos: {lat: 31.0413, lng: -91.8360},area: 52378,population: 4468976,interest: 0} 
+, {name:" MA ",pos: {lat: 42.3, lng: -71.8},area: 10554,population: 6349097,interest: 0} 
+, {name:" MD ",pos: {lat: 39, lng: -76.7},area: 12406,population: 5296486,interest: 0} 
+, {name:" ME ",pos: {lat: 45.5, lng: -69},area: 35380,population: 1274923,interest: 0} 
+, {name:" MI ",pos: {lat: 43.6867, lng: -85.0102},area: 96714,population: 9938444,interest: 0} 
+, {name:" MN ",pos: {lat: 46, lng: -94},area: 86936,population: 4919479,interest: 0} 
+, {name:" MO ",pos: {lat: 38.5, lng: -92.5},area: 69707,population: 5595211,interest: 0} 
+, {name:" MS ",pos: {lat: 33, lng: -90},area: 48432,population: 2844658,interest: 0} 
+, {name:" MT ",pos: {lat: 47, lng: -110},area: 147040,population: 902195,interest: 0} 
+, {name:" NC ",pos: {lat: 35.5, lng: -80},area: 53819,population: 8049313,interest: 0} 
+, {name:" ND ",pos: {lat: 47, lng: -100},area: 70698,population: 642200,interest: 0} 
+, {name:" NE ",pos: {lat: 41.2324, lng: -98.4160},area: 77348,population: 1711263,interest: 0} 
+, {name:" NH ",pos: {lat: 44, lng: -71.5},area: 9349,population: 1235786,interest: 0} 
+, {name:" NJ ",pos: {lat: 40, lng: -74.5},area: 8723,population: 8414350,interest: 0} 
+, {name:" NM ",pos: {lat: 34, lng: -106},area: 121590,population: 1819046,interest: 0} 
+, {name:" NV ",pos: {lat: 39, lng: -117},area: 110572,population: 1998257,interest: 0} 
+, {name:" NY ",pos: {lat: 40.7127, lng: -74.0059},area: 54555,population: 18976457,interest: 0} 
+, {name:" OH ",pos: {lat: 40.5, lng: -82.5},area: 44826,population: 11353140,interest: 0} 
+, {name:" OK ",pos: {lat: 35.5, lng: -98},area: 69899,population: 3450654,interest: 0} 
+, {name:" OR ",pos: {lat: 44, lng: -120.5},area: 98379,population: 3421399,interest: 0} 
+, {name:" PA ",pos: {lat: 41, lng: -77.5},area: 46054,population: 12281054,interest: 0} 
+, {name:" RI ",pos: {lat: 41.7, lng: -71.5},area: 1545,population: 1048319,interest: 0} 
+, {name:" SC ",pos: {lat: 34, lng:  -81},area: 32020,population: 4012012,interest: 0} 
+, {name:" SD ",pos: {lat: 44.5, lng: -100},area: 77116,population: 754844,interest: 0} 
+, {name:" TN ",pos: {lat: 36, lng: -86},area: 42144,population: 5689283,interest: 0} 
+, {name:" TX ",pos: {lat: 31, lng: -100},area: 268596,population: 20851820,interest: 0} 
+, {name:" UT ",pos: {lat: 39.5, lng: -111.5},area: 84897,population: 2233169,interest: 0} 
+, {name:" VA ",pos: {lat: 37.5, lng: -79},area: 42775,population: 7078516,interest: 0} 
+, {name:" VT ",pos: {lat: 44.2035, lng: -72.563},area: 69616,population: 608827,interest: 0} 
+, {name:" WA ",pos: {lat: 47.5, lng: -120.5},area: 71298,population: 5894121,interest: 0} 
+, {name:" WI ",pos: {lat: 44.5, lng: -89.5},area: 65496,population: 5363675,interest: 0} 
+, {name:" WV ",pos: {lat: 39, lng: -80.5},area: 24230,population: 1808344,interest: 0} 
+, {name:" WY ",pos: {lat: 43, lng: -107.5},area: 97813,population: 493782,interest: 0} 
+],
+edge:      [
+	    	{ id:'AL-FL',  source: 1 , target: 9, weight:17},
+	    	{ id:'AL-GA',  source: 1 , target: 10, weight:21},
+	    	{ id:'AL-MS',  source: 1 , target: 25, weight:19},
+	    	{ id:'AL-TN',  source: 1 , target: 42, weight:13},
+	    	{ id:'AR-LA',  source: 2 , target: 18, weight:13},
+	    	{ id:'AR-MO',  source: 2 , target: 24, weight:20},
+	    	{ id:'AR-MS',  source: 2 , target: 25, weight:2},
+	    	{ id:'AR-OK',  source: 2 , target: 36, weight:14},
+	    	{ id:'AR-TN',  source: 2 , target: 42, weight:2},
+	    	{ id:'AR-TX',  source: 2 , target: 43, weight:5},
+	    	{ id:'AZ-CA',  source: 3 , target: 4, weight:6},
+	    	{ id:'AZ-NM',  source: 3 , target: 32, weight:12},
+	    	{ id:'AZ-NV',  source: 3 , target: 33, weight:3},
+	    	{ id:'AZ-UT',  source: 3 , target: 44, weight:7},
+	    	{ id:'CA-NV',  source: 4 , target: 33, weight:20},
+	    	{ id:'CA-OR',  source: 4 , target: 37, weight:4},
+	    	{ id:'CO-KS',  source: 5 , target: 16, weight:7},
+	    	{ id:'CO-NE',  source: 5 , target: 29, weight:8},
+	    	{ id:'CO-NM',  source: 5 , target: 32, weight:10},
+	    	{ id:'CO-OK',  source: 5 , target: 36, weight:1},
+	    	{ id:'CO-UT',  source: 5 , target: 44, weight:6},
+	    	{ id:'CO-WY',  source: 5 , target: 50, weight:7},
+	    	{ id:'CT-MA',  source: 6 , target: 19, weight:14},
+	    	{ id:'CT-NY',  source: 6 , target: 34, weight:11},
+	    	{ id:'CT-RI',  source: 6 , target: 39, weight:6},
+	    	{ id:'DC-MD',  source: 7 , target: 20, weight:12},
+	    	{ id:'DC-VA',  source: 7 , target: 45, weight:2},
+	    	{ id:'DE-MD',  source: 8 , target: 20, weight:17},
+	    	{ id:'DE-PA',  source: 8 , target: 38, weight:6},
+	    	{ id:'FL-GA',  source: 9 , target: 10, weight:21},
+	    	{ id:'GA-NC',  source: 10 , target: 27, weight:4},
+	    	{ id:'GA-SC',  source: 10 , target: 40, weight:18},
+	    	{ id:'GA-TN',  source: 10 , target: 42, weight:9},
+	    	{ id:'IA-IL',  source: 12 , target: 14, weight:12},
+	    	{ id:'IA-MN',  source: 12 , target: 23, weight:18},
+	    	{ id:'IA-MO',  source: 12 , target: 24, weight:14},
+	    	{ id:'IA-NE',  source: 12 , target: 29, weight:11},
+	    	{ id:'IA-SD',  source: 12 , target: 41, weight:6},
+	    	{ id:'IA-WI',  source: 12 , target: 48, weight:3},
+	    	{ id:'ID-MT',  source: 13 , target: 26, weight:10},
+	    	{ id:'ID-NV',  source: 13 , target: 33, weight:2},
+	    	{ id:'ID-OR',  source: 13 , target: 37, weight:10},
+	    	{ id:'ID-UT',  source: 13 , target: 44, weight:5},
+	    	{ id:'ID-WA',  source: 13 , target: 47, weight:7},
+	    	{ id:'IL-IN',  source: 14 , target: 15, weight:20},
+	    	{ id:'IL-KY',  source: 14 , target: 17, weight:4},
+	    	{ id:'IL-MO',  source: 14 , target: 24, weight:12},
+	    	{ id:'IL-WI',  source: 14 , target: 48, weight:16},
+	    	{ id:'IN-KY',  source: 15 , target: 17, weight:9},
+	    	{ id:'IN-MI',  source: 15 , target: 22, weight:11},
+	    	{ id:'IN-OH',  source: 15 , target: 35, weight:18},
+	    	{ id:'KS-MO',  source: 16 , target: 24, weight:21},
+	    	{ id:'KS-NE',  source: 16 , target: 29, weight:20},
+	    	{ id:'KS-OK',  source: 16 , target: 36, weight:24},
+	    	{ id:'KY-OH',  source: 17 , target: 35, weight:9},
+	    	{ id:'KY-TN',  source: 17 , target: 42, weight:16},
+	    	{ id:'KY-VA',  source: 17 , target: 45, weight:5},
+	    	{ id:'17-WV',  source: 17 , target: 49, weight:6},
+	    	{ id:'LA-MS',  source: 18 , target: 25, weight:15},
+	    	{ id:'LA-TX',  source: 18 , target: 43, weight:12},
+	    	{ id:'MA-NH',  source: 19 , target: 30, weight:12},
+	    	{ id:'MA-RI',  source: 19 , target: 39, weight:16},
+	    	{ id:'MA-VT',  source: 19 , target: 46, weight:5},
+	    	{ id:'MA-PA',  source: 20 , target: 38, weight:22},
+	    	{ id:'MD-VA',  source: 20 , target: 45, weight:5},
+	    	{ id:'MD-WV',  source: 20 , target: 49, weight:13},
+	    	{ id:'ME-NH',  source: 21 , target: 30, weight:10},
+	    	{ id:'MI-OH',  source: 22 , target: 35, weight:18},
+	    	{ id:'MI-WI',  source: 22 , target: 48, weight:13},
+	    	{ id:'MN-ND',  source: 23 , target: 28, weight:13},
+	    	{ id:'MN-SD',  source: 23 , target: 41, weight:14},
+	    	{ id:'MN-WI',  source: 23 , target: 48, weight:16},
+	    	{ id:'MO-NE',  source: 24 , target: 29, weight:2},
+	    	{ id:'MO-OK',  source: 24 , target: 36, weight:2},
+	    	{ id:'MO-TN',  source: 24 , target: 42, weight:1},
+	    	{ id:'MS-TN',  source: 25 , target: 42, weight:11},
+	    	{ id:'MT-WY',  source: 26 , target: 50, weight:16},
+	    	{ id:'MT-ND',  source: 26 , target: 28, weight:0},
+	    	{ id:'MT-SD',  source: 26 , target: 41, weight:0},
+	    	{ id:'NC-SC',  source: 27 , target: 40, weight:32},
+	    	{ id:'NC-TN',  source: 27 , target: 42, weight:11},
+	    	{ id:'NC-VA',  source: 27 , target: 45, weight:23},
+	    	{ id:'ND-SD',  source: 28 , target: 41, weight:16},
+	    	{ id:'NE-WY',  source: 29 , target: 50, weight:6},
+	    	{ id:'NE-SD',  source: 29 , target: 41, weight:11},
+	    	{ id:'NH-VT',  source: 30 , target: 46, weight:16},
+	    	{ id:'NJ-PA',  source: 31 , target: 38, weight:21},
+	    	{ id:'NJ-NY',  source: 31 , target: 34, weight:13},
+	    	{ id:'NM-TX',  source: 32 , target: 43, weight:22},
+	    	{ id:'NM-OK',  source: 32 , target: 36, weight:1},
+	    	{ id:'NV-UT',  source: 33 , target: 44, weight:9},
+	    	{ id:'NV-OR',  source: 33 , target: 37, weight:4},
+	    	{ id:'NY-PA',  source: 34 , target: 38, weight:32},
+	    	{ id:'NY-VT',  source: 34 , target: 46, weight:8},
+	    	{ id:'OH-WV',  source: 35 , target: 49, weight:11},
+	    	{ id:'OH-PA',  source: 35 , target: 38, weight:14},
+	    	{ id:'OK-TX',  source: 36 , target: 43, weight:25},
+	    	{ id:'OR-WA',  source: 37 , target: 47, weight:10},
+	    	{ id:'PA-WV',  source: 38 , target: 49, weight:10},
+	    	{ id:'TN-VA',  source: 42 , target: 45, weight:8},
+	    	{ id:'UT-WY',  source: 44 , target: 50, weight:8},
+	    	{ id:'VA-WV',  source: 45 , target: 49, weight:25},
+	    	{ id:'WY-SD',  source: 50 , target: 41, weight:0}
+    	   ]
+}
