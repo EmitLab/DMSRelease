@@ -1,15 +1,7 @@
 # Overview
+
 # DMS
 Scalable large scale simulation data management system for user interactive intelligent analytics.
-
-### Resolving Conflicts
-http://stackoverflow.com/questions/21559119/how-to-resolve-conflicts-in-egit
-
-## ACCESSING MYSQL OUTSIDE CAMPUS
-
-To access the mysql database outside asu campus, install Cisco AnyConnect Secure Mobility Client (available through ASU MyApps).
-Connect to sslvpn.asu.edu and use ASU login credential to login using VPN. 
-A successfull VPN connection should allow you to access MySQL.
 
 ### SETTING UP PROJECT FOR THE FIRST TIME
 
