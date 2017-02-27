@@ -113,6 +113,10 @@ Click on any entry text in the hierarchy to expand that subtree. The number and 
 
 After the subtrees have been sufficiently expanded, result heatmaps will appear under their associated subquery headings. These heatmaps represent the time series data, with time on the X-axis and dimensions on the Y-axis:
 
+![alt text][energyHeatmap]
+
+Similar queries over epidemic dataset will generate data heatmaps like below: 
+
 ![alt text][epidemicHeatmap]
 
 ### Detailed View
@@ -142,3 +146,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [energyQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query-mgmt.PNG
 [energyQuery]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query1.PNG
 [energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy1.PNG
+[energyHeatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/heatmap1.png
