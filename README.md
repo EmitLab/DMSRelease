@@ -38,7 +38,7 @@ The XML query uses a similar syntax to the classical SELECT-FROM-WHERE SQL langu
 
 The time series query uses a MongoDB-style set-matching method, where one or more properties are listed, and each property can match any of a provided set. All properties should be followed by semicolons: `;`
 
-Here is a sample query:
+Here is a sample query for Epidemic dataset:
 
     for $ensemble in fn:collection('Epidemic') ^
     let $disease := $ensemble/project/scenario/model/disease ^
@@ -51,6 +51,17 @@ Here is a sample query:
     return $disease/transmissionRate, $disease/recoveryRate ^
     state = {AZ, CA, NM}; model = {SEIR, SIR}; properties = {Infected, Incidence, Deaths};
 
+Here is a sample query for Energy dataset:
+
+    for $ensemble in fn:collection('Energy') ^
+    let $a :=  $p/EnergyPlus_XML/CLASS ^
+    let $simid :=$p/EnergyPlus_XML ^
+    where $a/@name[matches(.,'ZoneHVAC:EquipmentConnection.*' )]  and 
+    $simid/CLASS/OBJECT/ATTR[@Comment='- Number of People' ][1] = '6' and
+    $simid/CLASS/OBJECT/ATTR[@Comment='- Lighting Level {W}'][1] > '50000'
+    return $simid/@SimulationID | $simid/modelname |  
+    $a[matches(@name,'ZoneHVAC:EquipmentC.*')]/OBJECT/ATTR[1]
+    zones={*};measure={Zone-Air-Temperature-C};model={*};
 # Using the System
 
 ### Query Management
