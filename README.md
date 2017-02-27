@@ -125,7 +125,7 @@ For additional detail, any heatmap can be clicked to pop open a new window conta
 
 This view should be used when additional information needs to be extracted from a specific region, or when users would like to drill down further into an analysis. An example can be seen here:
 
-![alt text][epidemicDetails]
+![alt text][energyDetails]
 
 ### Searching Within Results
 
@@ -147,3 +147,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [energyQuery]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query1.PNG
 [energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy1.PNG
 [energyHeatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/heatmap1.PNG
+[energyDetails]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/details1.png
