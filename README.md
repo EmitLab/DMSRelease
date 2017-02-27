@@ -19,7 +19,7 @@ Scalable large scale simulation data management system for user interactive inte
 
 1. Right click on the project > Build Path. If you cannot see build path, click on Properties > Java Build Path
 2. in Java Build Path dialog box > click on Libraries
-3. Check for JRE path, make sure the JRe version 1.8 or higher is selected.
+3. Check for JRE path, make sure the JRE version 1.8 or higher is selected.
 4. Check for Server, project is designed to use Tomcat 7.0 or +, connect to the version available on your machine.
 ### Background
 
@@ -73,7 +73,7 @@ Here is another sample query for Epidemic dataset:
 
 Once you have an understanding of the query language, you're ready to start creating queries, which can be done under the 'Query Management' section of the website. As many queries may need to be repeated as the datasets evolve, each query can be stored and associated with your account. Each query can be named and given a description to help categorize and identify your queries, and of course, these queries can always be modified later as needed.
 
-![alt text][query-mgmt]
+![alt text][epidemicQuery-mgmt]
 
 ### Data Management
 
@@ -81,7 +81,7 @@ However, these queries are only useful when they have data to analyze. To load n
 
 Data can be added to existing ensembles, or used as an initial input for a new ensemble. However, one potential limitation to consider is that data cannot be removed or updated within existing ensembles. For example, an ongoing study could append new information to the ensemble as it became available, but a disease's transmission rate could not be updated within the metadata later on as more accurate figures became available.
 
-![alt text][data-mgmt]
+![alt text][epidemicData-mgmt]
 
 ### Execution
 
@@ -89,11 +89,11 @@ Once all the data has been imported, and queries have been configured, the syste
 
 When conducting a metadata query, choose a saved query from the dropdown. Your query will be inserted into the query field, where final modifications can be made. Below, several additional filtering options are available to help refine the results. Once all settings have been finalized, click 'Execute Query' to perform the analysis. An example of this interface can be seen here:
 
-![alt text][query]
+![alt text][epidemicQuery]
 
 When conducting a similarity search, the inputs are slightly different. Instead of choosing an existing query, you will need to supply two source files to use as a basis for comparison. The input formats are identical to the Data Management requirements for ensembles, specifically CSV format in the standard STEM format. Once supplied, the dropdowns can be used to select which data to search. Finally, click 'Search Similar Series' to perform the analysis.
 
-![alt text][similarity]
+![alt text][epidemicSimilarity]
 
 # Understanding the Results
 
@@ -101,7 +101,7 @@ When conducting a similarity search, the inputs are slightly different. Instead 
 
 Once your query is complete, the results will appear immediately underneath the query section. At first, it will appear as a simple hierarchical display, as seen here:
 
-![alt text][hierarchy]
+![alt text][epidemicHierarchy]
 
 Click on any entry text in the hierarchy to expand that subtree. The number and depth of the subtrees will be dependent on the composition and complexity of the query. At any time, you may collapse the entire hierarchy by clicking the 'Collapse Hierarchy' button at the upper-right.
 
@@ -109,7 +109,7 @@ Click on any entry text in the hierarchy to expand that subtree. The number and 
 
 After the subtrees have been sufficiently expanded, result heatmaps will appear under their associated subquery headings. These heatmaps represent the time series data, with time on the X-axis and dimensions on the Y-axis:
 
-![alt text][heatmap]
+![alt text][epidemicHeatmap]
 
 ### Detailed View
 
@@ -117,7 +117,7 @@ For additional detail, any heatmap can be clicked to pop open a new window conta
 
 This view should be used when additional information needs to be extracted from a specific region, or when users would like to drill down further into an analysis. An example can be seen here:
 
-![alt text][details]
+![alt text][epidemicDetails]
 
 ### Searching Within Results
 
@@ -125,15 +125,15 @@ As query results become more complex, it may be desirable to find particular pie
 
 Enter in the desired attribute to search for, followed by a `;`, and then click the 'Search' button. This will filter the results to only display entries within the hierarchy that match the given pattern:
 
-![alt text][subsearch]
+![alt text][epidemicSubsearch]
 
-[details]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/details1.png
-[heatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/heatmap1.png
-[hierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/hierarchy1.png
-[query]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query.png
-[similarity]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/similarity1.png
-[subsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/subsearch.png
-[data-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/data-mgmt.png
-[query-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
+[epidemicDetails]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/details1.png
+[epidemicHeatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/heatmap1.png
+[epidemicHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/hierarchy1.png
+[epidemicQuery]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query.png
+[epidemicSimilarity]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/similarity1.png
+[epidemicSubsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/subsearch.png
+[epidemicData-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/data-mgmt.png
+[epidemicQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
 
 
