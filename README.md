@@ -89,7 +89,7 @@ Once all the data has been imported, and queries have been configured, the syste
 
 When conducting a metadata query, choose a saved query from the dropdown. Your query will be inserted into the query field, where final modifications can be made. Below, several additional filtering options are available to help refine the results. Once all settings have been finalized, click 'Execute Query' to perform the analysis. An example of this interface can be seen here:
 
-![alt text][epidemicQuery]
+![alt text][energyQuery]
 
 When conducting a similarity search, the inputs are slightly different. Instead of choosing an existing query, you will need to supply two source files to use as a basis for comparison. The input formats are identical to the Data Management requirements for ensembles, specifically CSV format in the standard STEM format. Once supplied, the dropdowns can be used to select which data to search. Finally, click 'Search Similar Series' to perform the analysis.
 
@@ -136,4 +136,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [epidemicData-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/data-mgmt.png
 [epidemicQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
 [energyQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query-mgmt.PNG
-
+[energyQuery]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query.PNG
