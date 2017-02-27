@@ -95,13 +95,13 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 
 ![alt text][subsearch]
 
-[details]: /DMS/WebContent/images/docs/details.png
-[heatmap]: /DMS/WebContent/images/docs/heatmap.png
-[hierarchy]: /DMS/WebContent/images/docs/hierarchy.png
-[query]: /DMS/WebContent/images/docs/query.png
-[similarity]: /DMS/WebContent/images/docs/similarity.png
-[subsearch]: /DMS/WebContent/images/docs/subsearch.png
-[data-mgmt]: /DMS/WebContent/images/docs/data-mgmt.png
-[query-mgmt]: /DMS/WebContent/images/docs/query-mgmt.png
+[details]: /DMSRelease/WebContent/images/docs/details.png
+[heatmap]: /DMSRelease/WebContent/images/docs/heatmap.png
+[hierarchy]: /DMSRelease/WebContent/images/docs/hierarchy.png
+[query]: /DMSRelease/WebContent/images/docs/query.png
+[similarity]: /DMSRelease/WebContent/images/docs/similarity.png
+[subsearch]: /DMSRelease/WebContent/images/docs/subsearch.png
+[data-mgmt]: /DMSRelease/WebContent/images/docs/data-mgmt.png
+[query-mgmt]: /DMSRelease/WebContent/images/docs/query-mgmt.png
 
 
