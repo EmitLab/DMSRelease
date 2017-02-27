@@ -138,4 +138,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [epidemicQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
 [energyQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query-mgmt.PNG
 [energyQuery]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query1.PNG
-[energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy.PNG
+[energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy1.PNG
