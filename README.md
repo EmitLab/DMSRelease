@@ -95,13 +95,13 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 
 ![alt text][subsearch]
 
-[details]: /DMSRelease/WebContent/images/docs/details.png
-[heatmap]: /DMSRelease/WebContent/images/docs/heatmap.png
-[hierarchy]: /DMSRelease/WebContent/images/docs/hierarchy.png
-[query]: /DMSRelease/WebContent/images/docs/query.png
-[similarity]: /DMSRelease/WebContent/images/docs/similarity.png
-[subsearch]: /DMSRelease/WebContent/images/docs/subsearch.png
-[data-mgmt]: /DMSRelease/WebContent/images/docs/data-mgmt.png
-[query-mgmt]: /DMSRelease/WebContent/images/docs/query-mgmt.png
+[details]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/details.png
+[heatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/heatmap.png
+[hierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/hierarchy.png
+[query]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/query.png
+[similarity]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/similarity.png
+[subsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/subsearch.png
+[data-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/data-mgmt.png
+[query-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/WebContent/images/docs/query-mgmt.png
 
 
