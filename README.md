@@ -133,7 +133,7 @@ As query results become more complex, it may be desirable to find particular pie
 
 Enter in the desired attribute to search for, followed by a `;`, and then click the 'Search' button. This will filter the results to only display entries within the hierarchy that match the given pattern:
 
-![alt text][epidemicSubsearch]
+![alt text][energySubsearch]
 
 [epidemicDetails]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/details1.png
 [epidemicHeatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/heatmap1.png
@@ -148,3 +148,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy1.PNG
 [energyHeatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/heatmap1.PNG
 [energyDetails]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/details1.PNG
+[energySubsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/subsearch.PNG
