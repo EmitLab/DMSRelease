@@ -99,9 +99,12 @@ When conducting a similarity search, the inputs are slightly different. Instead 
 
 ### Hierarchy
 
-Once your query is complete, the results will appear immediately underneath the query section. At first, it will appear as a simple hierarchical display, as seen here:
+Once your query is complete, the results will appear immediately underneath the query section. At first, it will appear as a simple hierarchical display, as seen here from the query over energy dataset above:
 
 ![alt text][energyHierarchy]
+
+Alternatively, the hierarchical display of queries over epidemic dataset can be:
+
 ![alt text][epidemicHierarchy]
 
 Click on any entry text in the hierarchy to expand that subtree. The number and depth of the subtrees will be dependent on the composition and complexity of the query. At any time, you may collapse the entire hierarchy by clicking the 'Collapse Hierarchy' button at the upper-right.
