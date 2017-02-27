@@ -38,19 +38,6 @@ The XML query uses a similar syntax to the classical SELECT-FROM-WHERE SQL langu
 
 The time series query uses a MongoDB-style set-matching method, where one or more properties are listed, and each property can match any of a provided set. All properties should be followed by semicolons: `;`
 
-Here is a sample query for Epidemic dataset:
-
-    for $ensemble in fn:collection('Epidemic') ^
-    let $disease := $ensemble/project/scenario/model/disease ^
-    let $trigger := $ensemble/project/scenario/trigger ^
-    where $disease/transmissionRate <= 0.6 and
-    $disease/transmissionRate >= 0.3 and
-    $disease/recoveryRate = 0.5 and
-    $trigger/@type = "Vaccination" ^
-    order by $disease/transmissionRate descending ^
-    return $disease/transmissionRate, $disease/recoveryRate ^
-    state = {AZ, CA, NM}; model = {SEIR, SIR}; properties = {Infected, Incidence, Deaths};
-
 Here is a sample query for Energy dataset:
 
     for $ensemble in fn:collection('Energy') ^
@@ -62,6 +49,19 @@ Here is a sample query for Energy dataset:
     return $simid/@SimulationID | $simid/modelname |  
     $a[matches(@name,'ZoneHVAC:EquipmentC.*')]/OBJECT/ATTR[1]
     zones={*};measure={Zone-Air-Temperature-C};model={*};
+    
+Here is another sample query for Epidemic dataset:
+
+    for $ensemble in fn:collection('Epidemic') ^
+    let $disease := $ensemble/project/scenario/model/disease ^
+    let $trigger := $ensemble/project/scenario/trigger ^
+    where $disease/transmissionRate <= 0.6 and
+    $disease/transmissionRate >= 0.3 and
+    $disease/recoveryRate = 0.5 and
+    $trigger/@type = "Vaccination" ^
+    order by $disease/transmissionRate descending ^
+    return $disease/transmissionRate, $disease/recoveryRate ^
+    state = {AZ, CA, NM}; model = {SEIR, SIR}; properties = {Infected, Incidence, Deaths};
 # Using the System
 
 ### Query Management
