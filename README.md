@@ -1,5 +1,30 @@
 # Overview
+# DMS
+Scalable large scale simulation data management system for user interactive intelligent analytics.
 
+### Resolving Conflicts
+http://stackoverflow.com/questions/21559119/how-to-resolve-conflicts-in-egit
+
+## ACCESSING MYSQL OUTSIDE CAMPUS
+
+To access the mysql database outside asu campus, install Cisco AnyConnect Secure Mobility Client (available through ASU MyApps).
+Connect to sslvpn.asu.edu and use ASU login credential to login using VPN. 
+A successfull VPN connection should allow you to access MySQL.
+
+### SETTING UP PROJECT FOR THE FIRST TIME
+
+1. Eclipse > File > Import > git > clone uri
+2. Copy the following URL - https://github.com/yashgarg1232/DMS.git
+3. Use DevMode branch for development. Also, avoid merging the DevMode branch with Master, until necessary.
+4. Enter your Github logn credentials, prefer using email address instead of username.
+5. When asked, import as existing project.
+
+### Setting the Libraries straight.
+
+1. Right click on the project > Build Path. If you cannot see build path, click on Properties > Java Build Path
+2. in Java Build Path dialog box > click on Libraries
+3. Check for JRE path, make sure the JRe version 1.8 or higher is selected.
+4. Check for Server, project is designed to use Tomcat 7.0 or +, connect to the version available on your machine.
 ### Background
 
 This manual serves as an introduction to using the simDMS system, a web application designed to simplify temporal analysis, similarity search, and graph analysis of large-scale multivariate time series data. You will be introduced to the different features of simDMS, receive an overview of the query language syntax, and learn about the storage mechanisms and operational considerations of the system.
