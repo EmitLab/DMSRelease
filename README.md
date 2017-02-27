@@ -10,6 +10,11 @@ Scalable large scale simulation data management system for user interactive inte
 3. Enter your Github logn credentials, prefer using email address instead of username.
 4. When asked, import as existing project.
 
+### OPEN SOURCE SOFTWARE COMPONENTS
+
+1. MongoDB
+2. BaseX XML Database
+
 ### Setting the Libraries straight.
 
 1. Right click on the project > Build Path. If you cannot see build path, click on Properties > Java Build Path
