@@ -14,7 +14,7 @@ A successfull VPN connection should allow you to access MySQL.
 ### SETTING UP PROJECT FOR THE FIRST TIME
 
 1. Eclipse > File > Import > git > clone uri
-2. Copy the following URL - https://github.com/yashgarg1232/DMS.git
+2. Copy the following URL - https://github.com/EmitLab/DMSRelease
 3. Use DevMode branch for development. Also, avoid merging the DevMode branch with Master, until necessary.
 4. Enter your Github logn credentials, prefer using email address instead of username.
 5. When asked, import as existing project.
