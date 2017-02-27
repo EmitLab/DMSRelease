@@ -148,4 +148,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy1.PNG
 [energyHeatmap]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/heatmap1.PNG
 [energyDetails]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/details1.PNG
-[energySubsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/subsearch.PNG
+[energySubsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/subsearch1.PNG
