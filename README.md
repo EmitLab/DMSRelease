@@ -71,9 +71,9 @@ Here is another sample query for Epidemic dataset:
 
 ### Query Management
 
-Once you have an understanding of the query language, you're ready to start creating queries, which can be done under the 'Query Management' section of the website. As many queries may need to be repeated as the datasets evolve, each query can be stored and associated with your account. Each query can be named and given a description to help categorize and identify your queries, and of course, these queries can always be modified later as needed.
+Once you have an understanding of the query language, you're ready to start creating queries, which can be done under the 'System' section of the website. As many queries may need to be repeated as the datasets evolve, each query can be stored and associated with your account. Each query can be named and given a description to help categorize and identify your queries, and of course, these queries can always be modified later as needed.
 
-![alt text][epidemicQuery-mgmt]
+![alt text][energyQuery-mgmt]
 
 ### Data Management
 
@@ -135,5 +135,5 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [epidemicSubsearch]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/subsearch.png
 [epidemicData-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/data-mgmt.png
 [epidemicQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
-
+[energyQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
 
