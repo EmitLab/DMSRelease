@@ -3,17 +3,17 @@
 # DMS
 Scalable large scale simulation data management system for user interactive intelligent analytics.
 
+### OPEN SOURCE SOFTWARE COMPONENTS
+
+1. MongoDB
+2. BaseX XML Database
+
 ### SETTING UP PROJECT FOR THE FIRST TIME
 
 1. Eclipse > File > Import > git > clone uri
 2. Copy the following URL - https://github.com/EmitLab/DMSRelease
 3. Enter your Github logn credentials, prefer using email address instead of username.
 4. When asked, import as existing project.
-
-### OPEN SOURCE SOFTWARE COMPONENTS
-
-1. MongoDB
-2. BaseX XML Database
 
 ### Setting the Libraries straight.
 
