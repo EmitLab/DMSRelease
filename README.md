@@ -7,9 +7,8 @@ Scalable large scale simulation data management system for user interactive inte
 
 1. Eclipse > File > Import > git > clone uri
 2. Copy the following URL - https://github.com/EmitLab/DMSRelease
-3. Use DevMode branch for development. Also, avoid merging the DevMode branch with Master, until necessary.
-4. Enter your Github logn credentials, prefer using email address instead of username.
-5. When asked, import as existing project.
+3. Enter your Github logn credentials, prefer using email address instead of username.
+4. When asked, import as existing project.
 
 ### Setting the Libraries straight.
 
