@@ -101,6 +101,7 @@ When conducting a similarity search, the inputs are slightly different. Instead 
 
 Once your query is complete, the results will appear immediately underneath the query section. At first, it will appear as a simple hierarchical display, as seen here:
 
+![alt text][energyHierarchy]
 ![alt text][epidemicHierarchy]
 
 Click on any entry text in the hierarchy to expand that subtree. The number and depth of the subtrees will be dependent on the composition and complexity of the query. At any time, you may collapse the entire hierarchy by clicking the 'Collapse Hierarchy' button at the upper-right.
@@ -137,3 +138,4 @@ Enter in the desired attribute to search for, followed by a `;`, and then click 
 [epidemicQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/epidemic/query-mgmt.png
 [energyQuery-mgmt]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query-mgmt.PNG
 [energyQuery]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/query1.PNG
+[energyHierarchy]: https://raw.githubusercontent.com/EmitLab/DMSRelease/master/DMSRelease/WebContent/images/docs/energy/hierarchy.PNG
